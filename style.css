@@ -1,4 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
-    background-color: black;
+    background-color: #141516;
     color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+/*--------------------------------------
+----------main styles---------------
+------------------------------------ */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.padding {
+    padding: 100px 60px 100px 60px;
+}
+
+
+h1 {
+    font-size: 50pt;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 40pt;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 12pt;
+    font-weight: 100;
+}
+
+/*--------------------------------------
+-------------------NAV---------------
+------------------------------------ */
+
+nav {
+    height: 50px;
+    padding: 30px 60px 30px 60px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    margin-right: 30px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*--------------------------------------
+-------------Main Page---------------
+------------------------------------ */
+
+
+
+#top-article {
+    height: 50vh;
+    width: 100vw;
+}
+
+#top-article div img {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.intro-caption {
+    width: 600px;
+    margin-left: 30px;
+}
+
+.intro-caption p {
+    margin-top: 30px;
+}
+
+/*--------------------------------------
+-------------Main Page---------------
+------------------------------------ */
+
+.case-container img {
+    width: 40vw;
+    border-radius: 50px;
+}
+
+.case-caption {
+    margin: 0 0 0 60px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*--------------------------------------
+-------------Main Page---------------
+------------------------------------ */
+
+footer {
+    background-color: black;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
 }
