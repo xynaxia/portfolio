@@ -4,10 +4,15 @@ body {
     background-color: #141516;
     color: white;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 12pt;
 }
 
 /*--------------------------------------
@@ -20,23 +25,38 @@ body {
 }
 
 .padding {
-    padding: 100px 60px 100px 60px;
+    padding: 0px 60px 100px 60px;
 }
 
 
 h1 {
-    font-size: 50pt;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 h2 {
-    font-size: 40pt;
+    font-size: 3rem;
     font-weight: lighter;
 }
 
 p {
-    font-size: 12pt;
+
     font-weight: 100;
+}
+
+span {
+    color: #FD4291;
+}
+
+button {
+    background-color: #FD4291;
+    background-image: linear-gradient(-90deg, #9145F9, #FD4291);
+    border: none;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
 }
 
 /*--------------------------------------
@@ -69,11 +89,17 @@ li a {
 -------------Main Page---------------
 ------------------------------------ */
 
-
+#top-page {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
 
 #top-article {
-    height: 50vh;
+    height: auto;
     width: 100vw;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
 }
 
 #top-article div img {
@@ -88,7 +114,26 @@ li a {
 }
 
 .intro-caption p {
-    margin-top: 30px;
+    margin-top: 4vh;
+}
+
+.cards {
+    margin-top: 8vh;
+}
+
+.card {
+    width: 20vw;
+    height: 15vw;
+    margin-right: 50px;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 18pt;
 }
 
 /*--------------------------------------
@@ -101,7 +146,7 @@ li a {
 }
 
 .case-caption {
-    margin: 0 0 0 60px;
+    margin: 0 0 0 120px;
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -109,7 +154,7 @@ li a {
 }
 
 /*--------------------------------------
--------------Main Page---------------
+-------------Footer---------------
 ------------------------------------ */
 
 footer {
@@ -119,3 +164,85 @@ footer {
     justify-content: space-evenly;
     align-items: center;
 }
+
+/*--------------------------------------
+-------------Media Queries---------------
+------------------------------------ */
+
+
+@media only screen and (max-width: 1000px) {
+
+    .desktop-nav {
+        display: none;
+    }
+    
+    
+    #top-page {
+        height: auto;
+    }
+    .cards { 
+        display: none;
+    }
+    
+
+    #top-article {
+        margin-top: 0;
+    }
+
+    #top-article div img {
+       display: none;
+    }
+
+    /*-----Case-----*/
+
+    .case-caption {
+        position: absolute;
+        width: 60vw;
+        margin: 60px;
+    }
+
+    .case-container img {
+        width: 90vw;
+        filter: brightness(0.5);
+    }
+  }
+
+  /* the moment you regret not doing mobile first */
+
+  @media only screen and (max-width: 600px) {
+
+    .desktop-nav {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .case-container { 
+        margin: 0;
+        padding: 0;
+    }
+
+    .case-container img {
+        width: 100vw;
+        border-radius: 0;
+        filter: brightness(0.5);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .padding {
+        padding: 60px 30px 0 30px;
+    }
+
+    .intro-caption {
+        margin-left: 0;
+    }
+  }
