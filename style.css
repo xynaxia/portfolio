@@ -48,6 +48,11 @@ span {
     color: #FD4291;
 }
 
+span:hover {
+    color: #ffb0d1;
+    cursor: pointer;
+}
+
 button {
     background-color: #FD4291;
     background-image: linear-gradient(-90deg, #9145F9, #FD4291);
@@ -57,6 +62,12 @@ button {
     border-radius: 10px;
     color: white;
     margin-top: 30px;
+    transition: 0.2s;
+}
+
+button:hover {
+    height: 65px;
+    width: 210px;
 }
 
 /*--------------------------------------
@@ -81,6 +92,14 @@ li {
 li a {
     text-decoration: none;
     color: white;
+}
+
+li a:hover {
+    color: #FD4291;
+}
+
+li:last-of-type {
+    margin-left: auto;
 }
 
 
@@ -137,12 +156,14 @@ li a {
 }
 
 /*--------------------------------------
--------------Main Page---------------
+-------------Case Page---------------
 ------------------------------------ */
 
-.case-container img {
+.case-img {
     width: 40vw;
-    border-radius: 50px;
+    height: 60vh;
+    border-radius: 25px;
+    background-size: cover;
 }
 
 .case-caption {
@@ -151,6 +172,18 @@ li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#case-one {
+    background-image: url("img/case-cgi.jpg");
+}
+
+#case-two {
+    background-image: url("img/case-animation.png");
+}
+
+#case-three {
+    background-image: url("img/case-placehold.jpg");
 }
 
 /*--------------------------------------
@@ -195,13 +228,19 @@ footer {
 
     /*-----Case-----*/
 
+    .case-container {
+        padding: 0;
+        justify-content: center;
+    align-items: center;
+    }
+
     .case-caption {
         position: absolute;
         width: 60vw;
-        margin: 60px;
+        margin: 0;
     }
 
-    .case-container img {
+    .case-img {
         width: 90vw;
         filter: brightness(0.5);
     }
@@ -215,19 +254,37 @@ footer {
         display: none;
     }
 
+    #top-page {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     footer {
         flex-direction: column;
     }
 
     .case-container { 
         margin: 0;
-        padding: 0;
+        padding: 0 !important;
+        justify-content: center;
+    align-items: center;
     }
 
-    .case-container img {
+    .case-img {
         width: 100vw;
         border-radius: 0;
         filter: brightness(0.5);
+    }
+
+    .case-caption {
+        position: absolute;
+        width: 85vw;
+        margin: 0;
+    }
+
+    button {
+        width: 85vw;
+        border-radius: 0;
     }
 
     h1 {

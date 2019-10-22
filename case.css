@@ -1,0 +1,17 @@
+
+
+header {
+    background-image: url('img/case-cgi.jpg');
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-img {
+    background-image: url('img/satellite.png');
+    height: 40vh;
+    background-size: cover;
+}
