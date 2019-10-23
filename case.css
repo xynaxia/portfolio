@@ -8,10 +8,43 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -60px;
+}
+
+header p {
+    text-align: center;
 }
 
 .divider-img {
     background-image: url('img/satellite.png');
     height: 40vh;
     background-size: cover;
+    margin-top: 60px;
+}
+
+article img {
+    margin-top: 60px;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    article {
+        display: flex;
+    }
+
+    
+    .article-title {
+        width: 30vw;
+        margin-right: 5vw;
+    }
+
+    article p {
+        width: 60vw;
+    }
+
 }
