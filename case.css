@@ -9,6 +9,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: -60px;
+    background-attachment: fixed;
 }
 
 header p {
@@ -20,6 +21,7 @@ header p {
     height: 40vh;
     background-size: cover;
     margin-top: 60px;
+    background-attachment: fixed;
 }
 
 article img {
