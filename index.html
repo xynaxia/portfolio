@@ -5,32 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/034324b115.js" crossorigin="anonymous"></script>
     
 
     <title>Document</title>
 </head>
 <body>
+        
+    <nav>
+        <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="flex desktop-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="scroll-to-work">Work</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="burger-cover">
+        
+    </div>
+
     <main>
-        <nav>
-            <ul class="flex desktop-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
-
     <section id="top-page" class="padding">
         <article class="flex" id="top-article">
             <div class="intro-caption">
             <h1>Hello, I'm Dario</h1>
-            <h2>Interaction Designer</h2>
-            <p>I love designing & developing interfaces. 
-                I enjoy thinking out the flow of interaction and optimizing this through user testing. 
-                To see <span>My Work</span> you can scroll down. 
+            <h2>Digital Product Designer</h2>
+            <p>I call myself a product designer, because I don’t just design interfaces, I design products that solve a specific problem. Thus a lot of what I do is based around making added value for a user. I do this through user research, talking with the user. Though, I also enjoy applying behavioural psychology for products that can influence the users behaviour. 
+                To see <spa class="scroll-to-work">My Work</span> you can scroll down. 
                 You can click here to learn more <span>About Me</span>, or read the footer for more <span>Contact Info</span>. </p>
             </div>
+            <div id="mobile-btn">
+                <button onclick="window.location.href = 'case.html';" class="gradient-btn">Contact</button>
+                <button onclick="window.location.href = 'case.html';" class="gradient-btn">About Me</button>
+            </div>
+            <i id="scroll-arrow" class="scroll-to-work fas fa-angle-down"></i>
         </article>
 
 
@@ -82,9 +96,9 @@
             <li><a>Contact</a></li>
         </ul>
         <ul>
-            <li><a>Facebook</a></li>
-            <li><a>Linked In</a></li>
-            <li><a>Github</a></li>
+            <li><a href="https://www.facebook.com/dario.sanchezmartinez.96" target="_blank">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/dario-sanchez-martinez-aa6a8a112/" target="_blank">Linked In</a></li>
+            <li><a href="https://github.com/xynaxia" target="_blank">Github</a></li>
         </ul>
         <address>
                 Kronenburg 30 2020PP ROTTERDAM <br>

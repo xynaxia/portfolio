@@ -1,4 +1,6 @@
 
+    //load animation
+    
     const main = document.querySelector("main");
     const loadIn = document.querySelectorAll(".loadInVp")
 
@@ -24,5 +26,13 @@
         })
     });
 
+    //Navigation
 
+    const navBurger = document.querySelector('#nav-icon1');
+    const burgerCover = document.querySelector('.burger-cover');
+
+    navBurger.addEventListener('click', function(){
+        navBurger.classList.toggle('open');
+        burgerCover.classList.toggle('open');
+    });
 
