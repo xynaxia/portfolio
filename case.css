@@ -28,6 +28,47 @@ article img {
     margin-top: 60px;
 }
 
+
+.image-grid {
+    display: flex;
+    width: 100vw;
+    height: 130vh;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-item {
+    background-color: grey;
+    width: 40vw;
+    height: 50vh;
+    margin: 10px;
+    background-size: cover;
+    filter: brightness(0.5);
+    transition: 0.5s;
+}
+
+.image-item:hover {
+    filter: brightness(1);
+}
+
+#screen-1 {
+    background-image: url("/img/image1.png");
+}
+
+#screen-2 {
+    background-image: url("/img/image2.png");
+}
+
+#screen-3 {
+    background-image: url("/img/image3.png");
+}
+
+#screen-4 {
+    background-image: url("/img/image4.png");
+}
+
 footer {
     margin-top: 60px;
 }

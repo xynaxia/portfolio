@@ -65,6 +65,12 @@ p {
     font-weight: 100;
 }
 
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #FD4291;
+}
+
 span {
     color: #FD4291;
 }
@@ -272,6 +278,7 @@ footer {
     height: 300px;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 0;
 }
 
 /*--------------------------------------
@@ -441,6 +448,12 @@ footer {
     .intro-caption {
         margin-left: 0;
         margin-top: 100px;
+    }
+
+    footer ul {
+        list-style-type: none;
+        align-self: flex-start;
+        margin-left: 60px;
     }
   }
 
