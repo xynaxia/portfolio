@@ -1,7 +1,6 @@
 
 
 header {
-    background-image: url('img/case-cgi.jpg');
     height: 60vh;
     background-size: cover;
     display: flex;
@@ -10,6 +9,22 @@ header {
     align-items: center;
     margin-top: -60px;
     background-attachment: fixed;
+}
+
+#cgi-header {
+    background-image: url('img/case-cgi.jpg');
+}
+
+#gem-header {
+    background-image: url('img/ijsel-gem.jpg');
+}
+
+#gem-first-div {
+    background-image: url('img/gem-research.jpg');
+}
+
+#gem-second-div {
+    background-image: url('img/gem-brain.JPG');
 }
 
 header p {
@@ -67,6 +82,38 @@ article img {
 
 #screen-4 {
     background-image: url("/img/image4.png");
+}
+
+#gem-screen-1 {
+    background-image: url("/img/beweging.png");
+}
+
+#gem-screen-2 {
+    background-image: url("/img/dashboard.png");
+}
+
+#gem-screen-3 {
+    background-image: url("/img/meldingen.png");
+}
+
+#gem-screen-4 {
+    background-image: url("/img/gps.png");
+}
+
+#gem-screen-1.active {
+    background-image: url("/img/beweging-2.png");
+}
+
+#gem-screen-2.active {
+    background-image: url("/img/dashboard-2.png");
+}
+
+#gem-screen-3.active {
+    background-image: url("/img/meldingen-2.png");
+}
+
+#gem-screen-4.active {
+    background-image: url("/img/gps-2.png");
 }
 
 footer {

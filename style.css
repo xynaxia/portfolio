@@ -110,6 +110,7 @@ nav {
     width: 100vw;
     background: none;
     flex-direction: column;
+    top: 0;
 }
 
 ul {
