@@ -129,12 +129,30 @@ footer {
 
     
     .article-title {
-        width: 30vw;
-        margin-right: 5vw;
+        width: 0vw;
+        margin-right: 30vw;
+        display: flex;
     }
 
     article p {
-        width: 60vw;
+        width: 40vw;
+    }
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.image-item {
+    background-color: grey;
+    width: 90vw;
+    height: 30vh;
+    margin-top: 30px;
+
+}
+
+.image-grid {
+    height: 150vh;
     }
 
 }

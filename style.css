@@ -51,7 +51,7 @@ main.pageload {
 
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: bolder;
 }
 
@@ -96,6 +96,8 @@ button:hover {
     height: 65px;
     width: 210px;
 }
+
+
 
 /*--------------------------------------
 -------------------NAV---------------
@@ -177,9 +179,57 @@ display: none;
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
+
+
+  /*--------------------------------------
+-----------------CONTACT--------------
+------------------------------------ */
   
 
+  .contact-cover {
+    background: #141516;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    transition: 0.5s;
+    flex-direction: column;
+    opacity: 0;
+    display: none;
+}
 
+.contact-cover i {
+    font-size: 40pt;
+}
+
+.contact-cover.active {
+    display: flex;
+    transition: 0.5s;
+    opacity: 1;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.contact-container > :nth-child(n+2)  {
+    margin-top: 30px;
+} 
+
+.social {
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+}
+
+.social a {
+    color: white;
+}
 
 
 /*--------------------------------------
@@ -262,7 +312,7 @@ display: none;
 }
 
 #case-two {
-    background-image: url("img/case-animation.png");
+    background-image: url("img/ijsel-gem.jpg");
 }
 
 #case-three {

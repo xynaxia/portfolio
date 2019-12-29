@@ -17,12 +17,8 @@
             const inVp = (position.top <= windowHeight) && ((position.top + position.height) >= 0);
 
             if (inVp){
-                console.log("Yes! :)");
                 item.classList.add('load');
-            } else {
-                console.log("No :(");
-            }
- 
+            } 
         })
     });
 
@@ -31,7 +27,16 @@
     const navBurger = document.querySelector('#nav-icon1');
     const burgerCover = document.querySelector('.burger-cover');
 
+    const contactCover = document.querySelector('.contact-cover');
+    const contactBtn = document.querySelectorAll('.contact');
+
     navBurger.addEventListener('click', function(){
         navBurger.classList.toggle('open');
         burgerCover.classList.toggle('open');
     });
+
+   contactBtn.forEach(function(btn){
+       btn.addEventListener('click', function(){
+            contactCover.classList.toggle('active');
+       });
+   });
