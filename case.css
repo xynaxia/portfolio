@@ -68,6 +68,19 @@ article img {
     filter: brightness(1);
 }
 
+.image-text {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.image-container-item {
+    width: 40vw;
+    margin: 10px;
+}
+
 #screen-1 {
     background-image: url("/img/image1.png");
 }
@@ -137,6 +150,8 @@ footer {
     article p {
         width: 40vw;
     }
+
+    
     
 
 }
@@ -151,8 +166,13 @@ footer {
 
 }
 
+.image-container-item {
+    width: 90vw;
+    margin: 10px;
+}
+
 .image-grid {
-    height: 150vh;
+    height: auto;
     }
 
 }
