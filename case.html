@@ -49,40 +49,42 @@
     <div class="article-title">
         <h1>Introduction</h1>
     </div>
-    <p>I did this project for <span><a href="https://www.cginederland.nl/nl/ruimtevaart" target="_blank">CGI Inc</a></span>. The project lasted 7 weeks and we were with four people. We did this project together with the CMGT course. There were two developers, two designers. My role in the project was primarily research. For example, I did research into the problem context and the possibilities of satellite data. To frame ourselves, we have chosen to focus on blue-green algae.
-            <br>
-            <br>
-    In this project I mainly focus on my own research. Everything that is discussed here is therefore mainly the one that I have done myself.</p>
+    <p>We did this project for CGI, with a team of 4 people (2 designers, 2 developers). The project lasted about 7 weeks. In these 7 weeks I’ve mainly done research. We’ve chosen to focus on water quality. For this we’ve created a remote sensing interface for the Waterboards.</p>
 </article>
-
-<article class="padding loadInVp">
-    <div class="article-title">
-        <h1>Research Satellites</h1>
-    </div>
-    <p>My first step was to investigate satellites. I wanted to know exactly what was possible and how it worked. I did this through different ways. First, I have found existing projects on the <span><a href="https://www.copernicus.eu/nl" target="_blank">Copernicus</a></span>. I soon noticed that many projects used the same kind of data sets. I also searched for experts in this field through Reddit. Soon I was referred to <span><a href="https://en.wikipedia.org/wiki/Remote_sensing" target="_blank">Remote Sensing</a></span>.
-            <br>
-            <br>
-            Remote Sensing: You can analyze the earth through remote sensing. So you can also see blue algae from space with the data from <span><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2" target="_blank">Sentinel 2</a></span>. Temperature with <span><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-3/overview/mission-summary" target="_blank">Sentinel 3</a></span>. I also found where I could get this data. This was from the <span><a href="https://earthengine.google.com/" target="_blank">Google Earth Engine API</a></span>. I passed this on to the developers, so that they could figure out how to implement this technically.</p>
-</article>
-
-<!-- Image -->
-<div class="divider-img"></div>
 
 <article class="padding loadInVp">
     <div class="article-title">
         <h1>Research Satellites</h1>
     </div>
     <div>
-    <p>First I wanted to do research on blue-green algae. I have sent many e-mails to water boards. This gave me the opportunity to talk to the <span><a href="https://www.hhdelfland.nl/" target="_blank">Delfland Waterboard</a></span> and the <span><a href="https://www.wshd.nl/" target="_blank">Dutch Delta</a></span>. My goal was to gain a better understanding of the problem situation. These were my insights.
+    <p>My first step was to research the possibilities of the satellite data. With desk research I’ve found the EU copernicus challenge where I could see different projects. In these projects I could also see which data they used. 
             <br>
             <br>
-            <span>1:</span> Duckweed & blue-green algae often block the light, causing the plants underneath to die. Dying plants causes oxygenlessness in the water and dredging. Dredging costs the water board money and oxygenlessness causes <span><a href="https://en.wikipedia.org/wiki/Hydrogen_sulfide" target="_blank">H2S</a></span>. H2S smells very bad and is not very healthy.
+            With the help of social media (Reddit) I’ve found the satellite sub. Here I asked around and I was quickly informed about Remote Sensing. Eventually I’ve learned about the Google Earth Engine API. I gave this to the developers and I’ve also made three posters of satellites to present my research.</p>
+            <img src="img/gem-cabster.png" class="loadInVp case-img">
+        </div>
+        </article>
+
+<!-- Image -->
+<div class="divider-img"></div>
+
+<article class="padding loadInVp">
+    <div class="article-title">
+        <h1>Research Waterquality</h1>
+    </div>
+    <div>
+    <p>With researching water quality I’ve decided to contact different organisations so that I could interview them. Here I’ve gotten two responses. One was from the Delfland waterboard and another from the Hollandse Delta. Here I’ve learned that it’s much more valuable to talk to experts instead of doing your own research. Based on my transcripts I’ve found these insights.
             <br>
             <br>
-            <span>2:</span>  Optimizing water quality is not the goal. It is to maintain a balance between good and bad water quality. With good water quality there will be many water plants. An excess of aquatic plants impedes fisherman and recreational sailors. They can also block the pumps.
+            <span>1:</span>  You don’t want the best water quality. Good water quality means there will be many water plants. Water plants impedes fisherman, recreational sailors and they can also block the pumps. Therefore the concept must focus on balancing water quality, rather than improving it. 
+
             <br>
             <br>
-            <span>3:</span>  The current monitoring network of the water board has less than 8% of all water in sight. So the biggest problem is insight. You need this insight for a good balance of water quality.</p>
+            <span>2:</span> The current monitoring network only has insight in < 8% of all total water, these are mostly cities. Duckweed often grows outside cities, but will come inside cities with the current. Because of this it’s hard to detect the source of growth.
+            <br>
+            <br>
+            <span>3:</span>  Bad water quality is often perceived as normal. This is why it’s hard to rely on citizen data. Cloudy water and a lot of duckweed coverage is everywhere. 
+        </p>
 
     <img src="img/waterschap.png" class="loadInVp"> 
     <p class="image-text">Here I am testing the concept with my user. This was Joep De koning, who is one of the water ecologists of the Delfland waterboard. I've collected some feedback to ask what kind of functions he would like to see. Thereby I don't just make the design decisions myself, but let the user choose, since he knows a lot more about the subject than I do.</p> 
@@ -91,23 +93,12 @@
 
 <article class="padding loadInVp">
     <div class="article-title">
-        <h1>Research Satellites</h1>
+        <h1>Concept</h1>
     </div>
     <div>
-    <p>"How do we give the water board a better view of the water so that they can prevent anoxic water?"</p>
-    <p>Combining the data of the citizen (Fishermen, recreational sailors, other reports), water board and Remote Sensing. This data is then primarily the data that helps to clarify the water quality. The data that we want to collect are the following:
-
-            Alga & Duckweed Coverage: we can use the NDVI formula with the data from sentinel 2 here. 
-            <br>
-            <br>
-            Plant diversity: plant diversity provides an indirect picture of water quality. Through data from Sentinel 1 and LIDAR, we can analyze the diversity.
-            <br>
-            <br>
-            Water Depth & Turbidity: By measuring the color of the water we can determine how turbid it is, but also how deep it is. For this you need high resolution satellite images, for example from Digitalglobe.
-            <br>
-            <br>
-            Water: Through the sensors and water samples from the water board we can also have a good idea about the chemicals in the water.</p>     
-        </div>
+    <p>Based on all insights and the waterboards input we’ve concluded that insight is the main problem surrounding water quality. Therefore we’ve decided to create a remote sensing interface for the waterboards. So that they can prevent and predict bad water quality before this happens. The functions are explained in the wireframes.</p>     
+    <img src="img/gem-cabster.png" class="loadInVp case-img">  
+</div>
  </article>
 
  <section class="image-grid image-container">
