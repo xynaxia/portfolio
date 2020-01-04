@@ -61,7 +61,9 @@
             <br>
             <br>
             With the help of social media (Reddit) I’ve found the satellite sub. Here I asked around and I was quickly informed about Remote Sensing. Eventually I’ve learned about the Google Earth Engine API. I gave this to the developers and I’ve also made three posters of satellites to present my research.</p>
-            <img src="img/gem-cabster.png" class="loadInVp case-img">
+            <img src="img/Sentinel-1_fullPoster.jpg" class="active sentinel loadInVp case-img">
+            <img src="img/Sentinel-2_fullPoster.jpg" class="hidden sentinel loadInVp case-img">
+            <img src="img/Sentinel-3_fullPoster.jpg" class="hidden sentinel loadInVp case-img">
         </div>
         </article>
 
@@ -96,8 +98,7 @@
         <h1>Concept</h1>
     </div>
     <div>
-    <p>Based on all insights and the waterboards input we’ve concluded that insight is the main problem surrounding water quality. Therefore we’ve decided to create a remote sensing interface for the waterboards. So that they can prevent and predict bad water quality before this happens. The functions are explained in the wireframes.</p>     
-    <img src="img/gem-cabster.png" class="loadInVp case-img">  
+    <p>Based on all insights and the waterboards input we’ve concluded that insight is the main problem surrounding water quality. Therefore we’ve decided to create a remote sensing interface for the waterboards. So that they can prevent and predict bad water quality before this happens. The functions are explained in the wireframes.</p>      
 </div>
  </article>
 
@@ -139,5 +140,28 @@
     </footer>
 </main>
     <script type="text/javascript" src="javascript.js"></script>
+    <script>
+    
+    const sentinel = document.querySelectorAll('.sentinel');
+   
+    sentinel.forEach(function(element, index){
+        var i = 0;
+            setInterval(function() {
+                if(index === i){
+                    element.classList.add('active');
+                    element.classList.remove('hidden');
+                } else if (i < 3) {
+                    element.classList.add('hidden');
+                    element.classList.remove('active');
+                }
+                if(i < 3){
+                i++;
+                } else {
+                    i=0;
+                }
+            }, 3000);
+        });
+    
+    </script>
 </body>
 </html>

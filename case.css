@@ -11,6 +11,17 @@ header {
     background-attachment: fixed;
 }
 
+
+.sentinel.active {
+    display: block;
+    opacity: 1;
+}
+
+.sentinel.hidden {
+    display: none;
+    opacity: 0;
+}
+
 #cgi-header {
     background-image: url('img/case-cgi.jpg');
 }
@@ -127,6 +138,7 @@ article img {
 #gem-screen-4.active {
     background-image: url("/img/gps-2.png");
 }
+
 
 footer {
     margin-top: 60px;
