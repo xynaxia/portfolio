@@ -23,19 +23,19 @@ header {
 }
 
 #cgi-header {
-    background-image: url('portfolio/img/case-cgi.jpg');
+    background-image: url('img/case-cgi.jpg');
 }
 
 #gem-header {
-    background-image: url('portfolio/img/ijsel-gem.jpg');
+    background-image: url('img/ijsel-gem.jpg');
 }
 
 #gem-first-div {
-    background-image: url('portfolio/img/gem-research.jpg');
+    background-image: url('img/gem-research.jpg');
 }
 
 #gem-second-div {
-    background-image: url('portfolio/img/gem-brain.JPG');
+    background-image: url('img/gem-brain.JPG');
 }
 
 header p {
@@ -92,19 +92,19 @@ article img {
 }
 
 #screen-1 {
-    background-image: url("/img/image1.png");
+    background-image: url("portfolio/img/image1.png");
 }
 
 #screen-2 {
-    background-image: url("/img/image2.png");
+    background-image: url("portfolio/img/image2.png");
 }
 
 #screen-3 {
-    background-image: url("/img/image3.png");
+    background-image: url("portfolio/img/image3.png");
 }
 
 #screen-4 {
-    background-image: url("/img/image4.png");
+    background-image: url("portfolio/img/image4.png");
 }
 
 #gem-screen-1 {
