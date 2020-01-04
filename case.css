@@ -92,51 +92,51 @@ article img {
 }
 
 #screen-1 {
-    background-image: url("portfolio/img/image1.png");
+    background-image: url("img/image1.png");
 }
 
 #screen-2 {
-    background-image: url("portfolio/img/image2.png");
+    background-image: url("img/image2.png");
 }
 
 #screen-3 {
-    background-image: url("portfolio/img/image3.png");
+    background-image: url("img/image3.png");
 }
 
 #screen-4 {
-    background-image: url("portfolio/img/image4.png");
+    background-image: url("img/image4.png");
 }
 
 #gem-screen-1 {
-    background-image: url("/img/beweging.png");
+    background-image: url("img/beweging.png");
 }
 
 #gem-screen-2 {
-    background-image: url("/img/dashboard.png");
+    background-image: url("img/dashboard.png");
 }
 
 #gem-screen-3 {
-    background-image: url("/img/meldingen.png");
+    background-image: url("img/meldingen.png");
 }
 
 #gem-screen-4 {
-    background-image: url("/img/gps.png");
+    background-image: url("img/gps.png");
 }
 
 #gem-screen-1.active {
-    background-image: url("/img/beweging-2.png");
+    background-image: url("img/beweging-2.png");
 }
 
 #gem-screen-2.active {
-    background-image: url("/img/dashboard-2.png");
+    background-image: url("img/dashboard-2.png");
 }
 
 #gem-screen-3.active {
-    background-image: url("/img/meldingen-2.png");
+    background-image: url("img/meldingen-2.png");
 }
 
 #gem-screen-4.active {
-    background-image: url("/img/gps-2.png");
+    background-image: url("img/gps-2.png");
 }
 
 
