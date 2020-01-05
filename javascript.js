@@ -37,6 +37,8 @@
 
    contactBtn.forEach(function(btn){
        btn.addEventListener('click', function(){
+           
             contactCover.classList.toggle('active');
+
        });
    });

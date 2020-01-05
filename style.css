@@ -181,6 +181,9 @@ display: none;
     transform: rotate(-135deg);
   }
 
+  .burger-cover {
+      display: none;
+  }
 
   /*--------------------------------------
 -----------------CONTACT--------------
@@ -317,7 +320,7 @@ display: none;
 }
 
 #case-three {
-    background-image: url("img/case-placehold.jpg");
+    background-image: url("img/case-innovation.jpg");
 }
 
 /*--------------------------------------
@@ -399,12 +402,34 @@ footer {
         height: 0vh;
         z-index: 5;
         transition: 0.2s;
+        display: block;
     }
 
     .burger-cover.open {
         background: #141516;
         width: 100vw;
         height: 100vh;
+    }
+
+    .burger-cover ul {
+  
+        top: 20vh;
+    margin-left: 60px;
+    position: fixed;
+    display: none;
+    }
+
+    .burger-cover ul li a {
+        font-size: 24pt;
+        line-height: 50pt;
+    }
+
+    .burger-cover.open ul {
+  
+        top: 20vh;
+    margin-left: 60px;
+    position: fixed;
+    display: block;
     }
 
     #mobile-btn {
