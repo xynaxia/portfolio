@@ -31,8 +31,15 @@
     const contactBtn = document.querySelectorAll('.contact');
 
     navBurger.addEventListener('click', function(){
+        const containsClass = contactCover.classList.toggle('active');
         navBurger.classList.toggle('open');
         burgerCover.classList.toggle('open');
+
+        if (containsClass){
+            contactCover.classList.remove('active');
+
+        }
+        
     });
 
    contactBtn.forEach(function(btn){
