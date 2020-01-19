@@ -148,6 +148,31 @@ article img {
     background-image: url("img/gps-2.png");
 }
 
+#ino-screen-1 {
+    background-image: url("img/ino-1.png");
+}
+
+#ino-screen-2 {
+    background-image: url("img/ino-2.png");
+}
+
+#ino-screen-3 {
+    background-image: url("img/ino-3.png");
+}
+
+#ino-screen-4 {
+    background-image: url("img/ino-4.png");
+}
+
+.mob-item {
+    height: 100vh;
+    z-index: 10;
+    background: center;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+}
 
 footer {
     margin-top: 60px;
@@ -195,4 +220,8 @@ footer {
     height: auto;
     }
 
+
+    .mob-item {
+        width: 100%;
+    }
 }
