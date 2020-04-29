@@ -51,3 +51,23 @@
             bodyLock.classList.toggle('lock');
        });
    });
+
+   const sentinel = document.querySelectorAll('.sentinel');
+   
+   sentinel.forEach(function(element, index){
+       var i = 0;
+           setInterval(function() {
+               if(index === i){
+                   element.classList.add('active');
+                   element.classList.remove('hidden');
+               } else if (i < 3) {
+                   element.classList.add('hidden');
+                   element.classList.remove('active');
+               }
+               if(i < 3){
+               i++;
+               } else {
+                   i=0;
+               }
+           }, 3000);
+       });

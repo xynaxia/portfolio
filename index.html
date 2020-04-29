@@ -3,123 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/034324b115.js" crossorigin="anonymous"></script>
-    
-
     <title>Document</title>
 </head>
 <body>
-        
-    <nav>
-        <div id="nav-icon1">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul class="flex desktop-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="CV.pdf" target="_blank">CV</a></li>
-            <li><a class="contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <div class="burger-cover">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="CV.pdf" target="_blank">CV</a></li>
-            <li><a class="contact">Contact</a></li>
-        </ul>
-    </div>
-
-    <div class="contact-cover">
-        <div class="contact-container">
-            <h1>Reach out to me</h1>
-            <p>dariosanchezmartinez@gmail.com</p>
-            <div class="social">
-                <a href="https://www.facebook.com/dario.sanchezmartinez.96" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/dario-sanchez-martinez-aa6a8a112/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/xynaxia" target="_blank"><i class="fab fa-github-alt"></i></a>
-            </div>
-        </div>
-    </div>
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Work</li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-    <section id="top-page" class="padding">
-        <article class="flex" id="top-article">
-            <div class="intro-caption">
-            <h1>Hello, I'm Dario</h1>
-            <h2>Digital Product Designer</h2>
-            <p>I call myself a product designer, because I don’t just design interfaces, I design products that solve a specific problem. Thus a lot of what I do is based around making added value for a user. I do this through user research, talking with the user. Though, I also enjoy applying behavioural psychology for products that can influence the users behaviour. 
-                To see <spa class="scroll-to-work">My Work</span> you can scroll down. 
-                </p>
-            </div>
-            <div id="mobile-btn">
-
-            </div>
-            <i id="scroll-arrow" class="scroll-to-work fas fa-angle-down"></i>
-        </article>
-
-
-    </section>
-
-    <!-- Case Section-->
-
-    <section>
-        <article class="flex case-container padding loadInVp">
-            <div id="case-one" class="case-img">
-
-            </div>
-            <div class="case-caption">
-                <h1>CGI</h1>
-                <h2>Research</h2>
-                <p>How can you use spacedata & citizen participation to create a concept that has social value in terms of safety or health in the Netherlands?</p>
-                <button onclick="window.location.href = 'case.html';" class="gradient-btn">Check out the case ></button>
-            </div>
-        </article>
-
-        <article class="flex case-container padding loadInVp">
-            <div id="case-two" class="case-img">
-            </div>
-            <div class="case-caption">
-                <h1>IJssel gemeente</h1>
-                <h2>Research</h2>
-                <p>Children with neurodevelopmental disorders (ADD, Autism, etc). These children are driven to school in special cabs. Our job was to create a better experience around these cabs.</p>
-                <button onclick="window.location.href = 'case-2.html';" class="gradient-btn">Check out the case ></button>
-            </div>
-        </article>
-
-        <article class="flex case-container padding loadInVp">
-            <div id="case-three" class="case-img">
-
-            </div>
-            <div class="case-caption">
-                <h1>Minor Innovation</h1>
-                <h2>Gamification</h2>
-                <p>How can we apply gamification to increase motivation for saving money?</p>
-                <button onclick="window.location.href = 'case-3.html';">Check out the case ></button>
-            </div>
-        </article>
-    </section>
-
-    <footer class="loadInVp">
-        <ul>
-            <li><a href="CV.pdf" target="_blank">CV</a></li>
-            <li><a class="contact">Contact</a></li>
+        <section>
+            <article>
+                <p>I’m Dario, a product designer based in Rotterdam. I love UX research and prototyping, applying science to design.</p>
+                <a>Learn More >></a>
+            </article>
+        </section>
+        <section class="case-container">
+            <article>
+                <a href="save-topia.html"><img src="img/save-topia.png" alt=""></a>
+                <caption>
+                    <h2>Saving App</h2>
+                    <p>How might I be able to use behavioural economics and psychology to influence saving behaviour? </p>
+                    <span>#UXResearch #UIDesign</span>
+                </caption>
+            </article>
+            <article>
+                <a href="save-topia.html"><img src="img/copernicus.png" alt=""></a>
+            </article>
+                <caption>
+                    <h2>Saving App</h2>
+                    <p>How might I be able to use behavioural economics and psychology to influence saving behaviour? </p>
+                    <span>#UXResearch #UIDesign</span>
+                </caption>
+            <article>
+                <a href="save-topia.html"><img src="img/sci-fi-book.png" alt=""></a>
+                <caption>
+                    <h2>Saving App</h2>
+                    <p>How might I be able to use behavioural economics and psychology to influence saving behaviour? </p>
+                    <span>#UXResearch #UIDesign</span>
+                </caption>
+            </article>
+            <a>See More Cases >></a>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <h2>Lets Connect</h2>
+        <p>I’d love to hear from you if you have a graduation for me</p>
+        <ul class="social-icons">
+            <li><img src="img/dribble.svg" alt=""></li>
+            <li><img src="img/facebook.svg" alt=""></li>
+            <li><img src="img/instagram.svg" alt=""></li>
+            <li><img src="img/linkedin.svg" alt=""></li>
         </ul>
-        <ul>
-            <li><a href="https://www.facebook.com/dario.sanchezmartinez.96" target="_blank">Facebook</a></li>
-            <li><a href="https://www.linkedin.com/in/dario-sanchez-martinez-aa6a8a112/" target="_blank">Linked In</a></li>
-            <li><a href="https://github.com/xynaxia" target="_blank">Github</a></li>
-        </ul>
-        <address>
-                Kronenburg 30 2020PP ROTTERDAM <br>
-                +44 345 678 903<br>
-                dariosanchezmartinez@gmail.com
-        </address>
     </footer>
-</main>
-<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
