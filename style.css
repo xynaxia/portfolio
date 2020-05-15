@@ -66,3 +66,38 @@ footer {
     width: 30px;
 
 }
+
+@media screen and (min-width: 500px) {
+
+    body {
+        padding: 100px;
+        padding-top: 0;
+    }
+
+    nav {
+        margin-top: 50px;
+    }
+
+  }
+
+  @media screen and (min-width: 900px) {
+    .case-container {
+        display: grid;
+        column-gap: 10px;
+        grid-template-areas: 
+        "main-case main-case second-case"
+        "main-case main-case third-case"
+    }
+
+    #case-1 {
+        grid-area: main-case;
+    }
+    #case-2 {
+        grid-area: second-case;
+    }
+    #case-3 {
+        grid-area: third-case;
+    }
+
+ 
+  }
