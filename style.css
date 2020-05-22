@@ -3,10 +3,16 @@
 * {
     padding: 0;
     margin: 0;
+    font-size: 14pt;
+    line-height: 25pt;
 }
 
 html {
     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 nav {
@@ -30,7 +36,6 @@ article {
     
 }
 
-
 img {
     width: 100%;
 }
@@ -46,6 +51,31 @@ a {
     color: black;
 }
 
+.tags {
+    padding: 15px 0 15px 0;
+}
+
+
+
+.case-img {
+    width: 100%;
+    background-size: cover;
+}
+
+#case-img-1 {
+    background-image: url("img/save-topia.png");
+    height: 80vh;
+}
+
+#case-img-2 {
+    background-image: url("img/prototype.jpg");
+    height: 40vh;
+}
+
+#case-img-3 {
+    background-image: url("img/sci-fi-book.png");
+    height: 40vh;
+}
 
 footer {
     display: flex;
@@ -99,5 +129,11 @@ footer {
         grid-area: third-case;
     }
 
- 
+    .case-caption {
+        display: none;
+    }
+
+    .text-contain {
+        padding: 100px 100px 100px 100px;
+    }
   }
