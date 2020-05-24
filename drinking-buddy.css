@@ -1,0 +1,18 @@
+#buddy-case-1 {
+    background-image: url("img/brainstorm2.jpg");
+    height: 80vh;
+    background-position: fixed;
+}
+
+#buddy-case-2 {
+    background-image: url("img/arduino.jpg");
+    height: 80vh;
+    background-position-y: center;
+}
+
+#buddy-case-3 {
+    background-image: url("img/prototype.gif");
+    height: 100vh;
+    background-position-y: center;
+    width: 60vw;
+}

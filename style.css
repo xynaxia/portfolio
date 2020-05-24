@@ -5,14 +5,19 @@
     margin: 0;
     font-size: 14pt;
     line-height: 25pt;
+    box-sizing: border-box;
 }
 
 html {
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    padding-bottom: 0;
+}
 h1 {
     font-size: 2rem;
+    line-height: 50px;
 }
 
 nav {
@@ -23,7 +28,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 main {
@@ -51,10 +56,27 @@ a {
     color: black;
 }
 
-.tags {
-    padding: 15px 0 15px 0;
+hr {
+    margin-top: 10px;
+    border-top: 1px solid black;
+    width: 100%;
+}
 }
 
+#about-me {
+    font-weight: 700;
+}
+
+.tags {
+    padding: 15px 0 15px 0;
+    color: blue;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .case-img {
@@ -64,7 +86,7 @@ a {
 
 #case-img-1 {
     background-image: url("img/save-topia.png");
-    height: 80vh;
+    height: 100%;
 }
 
 #case-img-2 {
@@ -82,8 +104,8 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    justify-content: space-around;
-    height: 30vh;
+    justify-content: space-evenly;
+    height: 40vh;
 }
 
 .social-icons {
@@ -100,8 +122,7 @@ footer {
 @media screen and (min-width: 500px) {
 
     body {
-        padding: 100px;
-        padding-top: 0;
+        padding: 0 100px 0 100px;
     }
 
     nav {
@@ -135,5 +156,12 @@ footer {
 
     .text-contain {
         padding: 100px 100px 100px 100px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+
+    body {
+        padding: 0 200px 0 200px;
     }
   }
