@@ -51,6 +51,10 @@ li {
     text-decoration: none;
 }
 
+ol li {
+    list-style: initial;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -95,7 +99,7 @@ hr {
 }
 
 #case-img-3 {
-    background-image: url("img/sci-fi-book.png");
+    background-image: url("img/great-lakes-algae-blooms.jpg");
     height: 40vh;
 }
 
