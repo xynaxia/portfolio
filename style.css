@@ -8,6 +8,24 @@
     box-sizing: border-box;
 }
 
+main {
+    opacity: 0;
+    transition: 0.7s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+main.pageload {
+    opacity: 1;
+}
+
+.loadInVp {
+    opacity: 0;
+    transition: 0.7s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.loadInVp.load {
+    opacity: 1;
+}
+
 html {
     font-family: 'Poppins', sans-serif;
 }
@@ -86,6 +104,11 @@ hr {
 .case-img {
     width: 100%;
     background-size: cover;
+    transition: 0.5s;
+}
+
+.case-img:hover {
+filter: brightness(0.2);
 }
 
 #case-img-1 {

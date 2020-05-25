@@ -24,33 +24,6 @@
 
     //Navigation
 
-    const navBurger = document.querySelector('#nav-icon1');
-    const burgerCover = document.querySelector('.burger-cover');
-    const bodyLock = document.querySelector('body');
-
-    const contactCover = document.querySelector('.contact-cover');
-    const contactBtn = document.querySelectorAll('.contact');
-
-    navBurger.addEventListener('click', function(){
-        const containsClass = contactCover.classList.toggle('active');
-        navBurger.classList.toggle('open');
-        burgerCover.classList.toggle('open');
-        bodyLock.classList.toggle('lock');
-
-        if (containsClass){
-            contactCover.classList.remove('active');
-
-        }
-        
-    });
-
-   contactBtn.forEach(function(btn){
-       btn.addEventListener('click', function(){
-           
-            contactCover.classList.toggle('active');
-            bodyLock.classList.toggle('lock');
-       });
-   });
 
    const sentinel = document.querySelectorAll('.sentinel');
    
