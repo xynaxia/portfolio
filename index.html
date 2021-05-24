@@ -2,68 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li>WORK</li>
-                <li><a href="about.html">ABOUT</a></li>
-            </ul>
-        </nav>
+   <nav class="padding">
+       <ul>
+           <li>HOME</li>
+           <li>WORK</li>
+           <li>ABOUT</li>
+       </ul>
+   </nav>
+   <header>
+       <figure id="introPicture">
+       </figure>
+       <article class="padding">
+           <h1>I'm a digital product designer with a love for UX research. I love where the digital and physical meets</h1>
+            <p id="btnAboutMe">More About Me</p>
+        </article>
     </header>
-    <main>
-        <section>
-            <article>
-                <p>I’m Dario, a product designer based in Rotterdam. I love UX research and prototyping, applying science to design.</p>
-                
-                <a href="about.html" id="about-me">More About Me >></a>
-            </article>
-        </section>
-        <hr>
-        <section class="case-container">
-            <article id="case-1">
-                <a href="save-topia.html"><div id="case-img-1" class="case-img"></div></a>
-                <details class="case-caption">
-                    <h2>Saving App</h2>
-                    <p>How might I be able to use behavioural economics and psychology to influence saving behaviour? </p>
-                    <p class="tags">#UXResearch #UIDesign</p>
-                </details>
-            </article>
-            <article id="case-2">
-                <a href="drinking-buddy.html"><div id="case-img-2" class="case-img"></div></a>
-                <details class="case-caption">
-                    <h2>Drinking Buddy</h2>
-                    <p>Drinking buddy is a smart mug, with two major functions. It will make sure the barman will put enough alcohol in your mug and also prevent roofying. </p>
-                    <p class="tags">#Arduino #RapidPrototyping</p>
-                </details>
-            </article>
-            <article id="case-3">
-                <a href="cgi.html"><div id="case-img-3" class="case-img"></div></a>
-                <details class="case-caption">
-                    <h2>GIS Remote Sensing</h2>
-                    <p>Using satellite data for remote sensing GIS interface</p>
-                    <p class="tags">#BigData #UXResearch #UIDesign</p>
-                </details>
-            </article>
-        </section>
-    </main>
-    <hr>
-    <footer>
-        <h2>Lets Connect</h2>
-        <p>I’d love to hear from you if you have a project for me</p>
-        <p><a>DarioSanchezMartinez@gmail.com</a></p>
-        <ul class="social-icons">
-            <li><a href="https://dribbble.com/xynaxia" target="_blank"><img src="img/dribble.svg" alt=""></a></li>
-            <li><a href="https://www.facebook.com/dario.sanchezmartinez.96/" target="_blank"><img src="img/facebook.svg" alt=""></a></li>
-            <li><a href="https://www.instagram.com/dariosanchezmartinez/" target="_blank"><img src="img/instagram.svg" alt=""></a></li>
-            <li><a href="https://www.linkedin.com/in/dario-sanchez-martinez-aa6a8a112" target="_blank"><img src="img/linkedin.svg" alt=""></a></li>
-        </ul>
-    </footer>
+
+    <div class="yellow-section-block">
+        <p>Cases</p>
+    </div>
+
+   <section class="case-container">
+        <article id="case-mirabeau" class="case">
+            <div class="padding case-text">
+                <h3>Smart Office - Graduation Project</h3>
+                <p>Designing a smart office concept, for a back to office scenario in a post-covid world.</p>
+                <button>view case study</button>
+            </div>
+        </article>
+        <article id="case-cgi" class="case">
+            <div class="padding case-text">
+                <h3>Remote Sensing Interface</h3>
+                <p>Designing a smart office concept, for a back to office scenario in a post-covid world.</p>
+                <button>Go to case</button>
+            </div>
+        </article>
+        <article class="case">
+            <div class="padding case-text">
+                <h3>Savetopia</h3>
+                <p>Designing a smart office concept, for a back to office scenario in a post-covid world.</p>
+                <button>Go to case</button>
+            </div>
+        </article>
+   </section>
+   <footer class="padding">
+    <ul class="social-icons">
+        <li><a href="https://dribbble.com/xynaxia" target="_blank"><img src="dribbble.svg" alt=""></a></li>
+        <li><a href="https://www.facebook.com/dario.sanchezmartinez.96/" target="_blank"><img src="facebook.svg" alt=""></a></li>
+        <li><a href="https://www.instagram.com/dariosanchezmartinez/" target="_blank"><img src="instagram.svg" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/dario-sanchez-martinez-aa6a8a112" target="_blank"><img src="linkedin.svg" alt=""></a></li>
+    </ul>
+    <p>&copy;Dario Sanchez Martinez</p>
+   </footer>
 </body>
-<script src="javascript.js"></script>
 </html>
