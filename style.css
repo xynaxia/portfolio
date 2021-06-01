@@ -59,6 +59,10 @@ h1 {
     margin-top: 30px;
 }
 
+h2 {
+    color: #56C2B5;
+}
+
 h3 {
     font-size: 3rem;
 }
@@ -148,6 +152,59 @@ footer ul li {
     margin: 0 30px 0 0;
 }
 
+
+/* Case CSS */
+
+
+.case-image {
+    height: 40vh;
+}
+
+.case-header h1 {
+    margin-left: 100px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.case-details {
+    display: flex;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: auto;
+}
+
+.case-details p {
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.case-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.case-text {
+    display: flex;
+    padding: 50px 20rem 50px 0;
+}
+
+.case-figure {
+    height: 40vh;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.article-title {
+    width: 30%;
+
+}
+
+.article-text {
+    width: 70%;
+
+}
+/* Media Querries */
+
 @media (max-width: 480px) {
     .padding {
         padding: 20px 20px 20px 20px;
@@ -168,4 +225,26 @@ footer ul li {
     .yellow-section-block {
         margin-left: 0px;
   }
+
+
+  /* Case CSS */
+
+  .case-text{
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .case-header h1 {
+    margin-left: 30px;
+    width: 80%;
+    margin-bottom: 50px;
+    }
+
+    .case-details {
+    flex-direction: column;
+    }
+
+    .article-text {
+        width: 100%;;
+    }
 }
