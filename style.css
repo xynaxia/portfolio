@@ -157,7 +157,7 @@ footer ul li {
 
 
 .case-image {
-    height: 40vh;
+    height: 60vh;
 }
 
 .case-header h1 {
@@ -203,6 +203,10 @@ footer ul li {
     width: 70%;
 
 }
+
+.image-holder {
+    padding-left: 15%;
+}
 /* Media Querries */
 
 @media (max-width: 480px) {
@@ -246,5 +250,10 @@ footer ul li {
 
     .article-text {
         width: 100%;;
+    }
+
+    .case-text {
+        display: flex;
+        padding: 50px 0 50px 0;
     }
 }
