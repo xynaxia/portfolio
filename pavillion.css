@@ -1,17 +1,28 @@
 
 #pavillionCaseImage {
-    background-image: url('mirabeau-case.jpg');
+    background-image: url('img/mirabeau-case.jpg');
 }
 
 #conceptImage {
-    background-image: url('case-context.png');
-    background-size: cover;
     height: 90vh;
 }
 
 #guidelines {
-    background-image: url('Moodboard_Maatregel.jpg');
-    background-size: cover;
     height: 80vh;
     width: 80%;
+}
+
+#valueProp {
+
+    height: 80vh;
+    width: 60%;
+}
+
+#insights {
+
+    height: 100vh;
+}
+
+#chaos {
+    height: 40vh;
 }
