@@ -142,6 +142,11 @@ button:hover {
     background-image: url('img/algae.jpg');
 }
 
+#case-savetopia {
+    background-image: url('img/savetopia.png');
+    background-size: cover;
+}
+
 footer {
     background-color: #25282A;
     color: white;
