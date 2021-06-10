@@ -40,9 +40,15 @@ nav ul li:hover {
     color: #FFB300;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 article {
     width: 100vw;
 }
+
 
 .margin-bottom {
     margin-bottom: 30px;
@@ -194,15 +200,20 @@ footer ul li {
     width: 100%;
 }
 
-
+.case-article {
+    max-width: 1400px;
+}
 
 .article-title {
     width: 30%;
-    margin-top: 50px;
+    margin: 50px 50px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .article-text {
     width: 50%;
+    max-width: 600px;
 }
 
 .article-text p {
@@ -267,3 +278,4 @@ iframe {
     }
 
 }
+
