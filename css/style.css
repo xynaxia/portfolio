@@ -90,7 +90,7 @@ h3 {
     background-size: cover;
     width: 100vw;
     height: 500px;
-    background-image: url("img/dario.jpeg");
+    background-image: url("/img/dario.jpeg");
     background-position-y: center;
 }
 
@@ -135,15 +135,15 @@ button:hover {
 }
 
 #case-mirabeau {
-    background-image: url('img/mirabeau-case.jpg');
+    background-image: url('/img/mirabeau-case.jpg');
 }
 
 #case-cgi {
-    background-image: url('img/algae.jpg');
+    background-image: url('/img/algae.jpg');
 }
 
 #case-savetopia {
-    background-image: url('img/savetopia.png');
+    background-image: url('/img/savetopia.png');
     background-size: cover;
 }
 
