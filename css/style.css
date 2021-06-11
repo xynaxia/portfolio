@@ -76,6 +76,7 @@ h2 {
 
 h3 {
     font-size: 3rem;
+    line-height: 50pt;
 }
 
 .case h3 {
@@ -119,6 +120,10 @@ h3 {
     display: flex;
     align-items: center;
     color: white;
+}
+
+.case-caption {
+    max-width: 800px;
 }
 
 button {
