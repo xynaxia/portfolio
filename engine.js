@@ -2,9 +2,17 @@
 
 //Resize responsive
 
+
+
 window.addEventListener('resize', function () { 
-    "use strict";
-    window.location.reload(); 
+
+    let mql = window.matchMedia('(max-width: 600px)');
+
+    if (mql.matches !== true){
+        window.location.reload();
+    } else {
+         
+    }
 });
 
 //slide code
