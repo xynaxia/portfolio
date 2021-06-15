@@ -2,3 +2,20 @@
     background-image: url('/img/savetopia.png');
     background-size: cover;
 }
+
+#slide-1 {
+    background-image: url('/img/save-slide-1.png');
+}
+
+#slide-2 {
+    background-image: url('/img/save-slide-2.png');
+}
+
+#slide-3 {
+    background-image: url('/img/save-slide-3.png');
+}
+
+#slide-4 {
+    background-image: url('/img/save-slide-4.png');
+}
+

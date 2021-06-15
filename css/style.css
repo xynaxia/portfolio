@@ -36,12 +36,13 @@ nav ul li {
     cursor: pointer;
 }
 
-nav ul li:hover {
+nav a:hover {
     color: #FFB300;
 }
 
 nav a {
     text-decoration: none;
+    color: black;
 }
 
 section {
@@ -124,6 +125,7 @@ h3 {
     display: flex;
     align-items: center;
     color: white;
+    max-height: 1200px;
 }
 
 .case-caption {
@@ -151,10 +153,12 @@ button:hover {
 
 #case-mirabeau {
     background-image: url('/img/mirabeau-case.jpg');
+    background-size: cover;
 }
 
 #case-cgi {
     background-image: url('/img/algae.jpg');
+    background-size: cover;
 }
 
 #case-savetopia {
@@ -319,12 +323,13 @@ iframe {
   
   .prev {
     background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronLeft-512.png);
-    left: -20px;
+    left: 10vw;
+    color: #FFB300;
   }
   
   .next {
     background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-512.png);
-    right: -20px;
+    right: 10vw;
   }
   
   .prev:active,
