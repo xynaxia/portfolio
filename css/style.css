@@ -420,3 +420,12 @@ iframe {
 
 }
 
+@media screen and (min-width: 1900px) {
+    .padding {
+        padding: 20px 200px 20px 200px;
+    }
+
+    .case-header h1 {
+        margin-left: 200px;
+    }
+  }
