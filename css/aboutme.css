@@ -1,0 +1,55 @@
+article {
+    display: flex;
+    width: 100vw;
+    padding: 150px 100px 95px 100px;
+}
+
+figure {
+    width: 50%;
+    padding-right: 100px;
+}
+
+#case-caption {
+    width: 50%;
+    max-width: 400px;
+}
+
+#aboutme-btn {
+    display: flex;
+    margin-top: 30px;
+}
+
+#aboutme-btn p, #aboutme-btn a {
+    margin-right: 50px;
+    color: #56C2B5;
+    margin-bottom: 50px;
+}
+
+#aboutme-btn p:hover {
+    color: #FFB300;;
+}
+
+
+@media (max-width: 780px) {
+
+article {
+    flex-direction: column;
+    padding: 100px 40px 0 20px;
+}
+
+figure {
+    width: 100%;
+}
+
+figure img {
+    width: 300px;
+}
+
+
+#case-caption {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+}

@@ -77,6 +77,8 @@ h1 {
 
 h2 {
     color: #56C2B5;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 h3 {
@@ -101,8 +103,8 @@ h3 {
 #introPicture {
     background-size: cover;
     width: 100vw;
-    height: 500px;
-    background-image: url("/img/dario.jpeg");
+    height: 600px;
+    background-image: url("/img/dario.jpg");
     background-position-y: center;
 }
 
@@ -336,6 +338,8 @@ iframe {
   .next:active {
     transform: scale(.8);
   }
+
+
 
 /* Media Querries */
 
