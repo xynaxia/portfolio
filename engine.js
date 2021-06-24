@@ -1,5 +1,31 @@
 
 
+//  var body = document.querySelector('body');
+
+
+
+// window.onload = function(){
+//  body.classList.add('active');
+//}
+
+//Navbar Hide/show
+var lastScrollPos = 20;
+
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (currentScrollPos > lastScrollPos) {
+    document.getElementById("nav-scroll").classList.add('hide');
+    console.log('up');
+
+  } else {
+    document.getElementById("nav-scroll").classList.remove('hide');
+    console.log('down');
+  }
+
+  lastScrollPos = currentScrollPos;
+
+}
+
 //Resize responsive
 
 
