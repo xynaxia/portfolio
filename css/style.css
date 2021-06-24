@@ -170,8 +170,9 @@ button:hover {
 }
 
 #case-cgi {
-    background-image: url('/img/algae.jpg');
+    background-image: url('/img/algae-cgi.jpg');
     background-size: cover;
+    background-position-y: center;
 }
 
 #case-savetopia {
