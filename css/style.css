@@ -55,6 +55,17 @@ nav a {
     color: black;
 }
 
+.right-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.yellow {
+    color: #FFB300;
+    font-size: 40pt;
+}
 
 section {
     display: flex;

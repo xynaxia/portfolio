@@ -14,6 +14,11 @@ figure {
     max-width: 400px;
 }
 
+#case-caption h1 {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
 #aboutme-btn {
     display: flex;
     margin-top: 30px;
@@ -30,11 +35,40 @@ figure {
 }
 
 
+.spotify-container {
+    height: auto;
+    width: 100%;
+    background-color: #25282A;
+}
+
+.spotify-playlist {
+    height: 300px;
+    width: 350px;
+}
+
+.spotify-caption {
+    width: 50%;
+    padding: 0 60px 0 0;
+}
+
+.spotify-caption p {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+#blender-project {
+    background-image: url('/img/blender-case.jpeg');
+    background-size: cover;
+}
+
 @media (max-width: 780px) {
 
 article {
     flex-direction: column;
-    padding: 100px 40px 0 20px;
+    padding: 0px 0 0 0;
 }
 
 figure {
@@ -42,13 +76,31 @@ figure {
 }
 
 figure img {
-    width: 300px;
+    width: 100vw;
 }
 
+.mobile-padding {
+    padding: 30px 30px 30px 30px;
+}
+
+#case-caption h1 {
+    margin-top: 0;
+    font-size: 2rem;
+}
 
 #case-caption {
     width: 100%;
     max-width: 600px;
+}
+
+.spotify-caption {
+    width: 100%;
+    padding: 0 0px 50px 0;
+}
+
+.spotify-playlist {
+    height: 300px;
+    width: 300px;
 }
 
 
