@@ -1,14 +1,5 @@
 
 
-//  var body = document.querySelector('body');
-
-
-
-// window.onload = function(){
-//  body.classList.add('active');
-//}
-
-//Navbar Hide/show
 var lastScrollPos = 20;
 
 window.onscroll = function() {
