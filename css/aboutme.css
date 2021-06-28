@@ -35,30 +35,6 @@ figure {
 }
 
 
-.spotify-container {
-    height: auto;
-    width: 100%;
-    background-color: #25282A;
-}
-
-.spotify-playlist {
-    height: 300px;
-    width: 350px;
-}
-
-.spotify-caption {
-    width: 50%;
-    padding: 0 60px 0 0;
-}
-
-.spotify-caption p {
-    color: white;
-}
-
-h3 {
-    color: white;
-}
-
 #blender-project {
     background-image: url('/img/blender-case.jpeg');
     background-size: cover;

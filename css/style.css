@@ -226,6 +226,10 @@ footer img {
     height: 60vh;
 }
 
+.case-figure {
+    margin: 30px 0 30px 0;
+}
+
 .case-header h1 {
     margin-left: 100px;
     width: 80%;
@@ -256,6 +260,12 @@ footer img {
 
 .case-article {
     max-width: 1400px;
+}
+
+.case-list {
+    padding-left: 40px;
+    list-style: auto;
+    text-decoration: yellow;
 }
 
 .article-title {
@@ -447,6 +457,10 @@ iframe {
 }
 
 @media screen and (min-width: 1900px) {
+    
+    *{
+        font: 18pt;
+    }
     .padding {
         padding: 20px 200px 20px 200px;
     }
@@ -454,4 +468,5 @@ iframe {
     .case-header h1 {
         margin-left: 200px;
     }
+
   }
