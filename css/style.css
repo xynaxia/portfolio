@@ -203,6 +203,9 @@ button:hover {
 footer {
     background-color: #25282A;
     color: white;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 footer ul {
@@ -259,7 +262,11 @@ footer img {
 }
 
 .case-article {
-    max-width: 1400px;
+    max-width: 1600px;
+}
+
+.case-caption {
+    padding-right: 0;
 }
 
 .case-list {
@@ -397,10 +404,20 @@ iframe {
         padding: 20px 20px 20px 20px;
     }
 
+    footer {
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
     h1 {
         font-size: 1.5rem;
         font-weight: lighter;
         line-height: 2rem;
+        margin-top: 0;
     }
 
     h3 {
@@ -409,9 +426,16 @@ iframe {
         line-height: 2rem;
     }
 
+    #introPicture {
+        height: 400px;
+    }
     .yellow-section-block {
         margin-left: 0px;
   }
+
+  .case-caption {
+    padding-right: 20px;
+}
 
 
   /* Case CSS */

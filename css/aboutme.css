@@ -35,9 +35,37 @@ figure {
 }
 
 
-#blender-project {
-    background-image: url('/img/blender-case.jpeg');
-    background-size: cover;
+.dark-section {
+ height: auto;
+ background-color: #3F3939;
+ color: white;
+}
+
+.dark-section h2 {
+ color: white;
+ font-size: 2rem;
+ line-height: 3rem;
+ font-weight: lighter;
+}
+
+.light-section {
+    height: auto;
+    display: flex;
+}
+
+.light-section {
+    height: auto;
+    display: flex;
+}
+
+.light-section figure {
+ height: auto;
+ width: 80%;
+}
+
+#process-caption {
+    width: 50%;
+    padding-right: 0;
 }
 
 @media (max-width: 780px) {
@@ -69,15 +97,6 @@ figure img {
     max-width: 600px;
 }
 
-.spotify-caption {
-    width: 100%;
-    padding: 0 0px 50px 0;
-}
-
-.spotify-playlist {
-    height: 300px;
-    width: 300px;
 }
 
 
-}
