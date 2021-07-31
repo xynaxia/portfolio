@@ -64,11 +64,15 @@ figure {
 }
 
 #process-caption {
-    width: 50%;
     padding-right: 0;
+    width: auto;
 }
 
 @media (max-width: 780px) {
+
+h2 {
+    margin-top: 30px;
+}
 
 article {
     flex-direction: column;
@@ -77,10 +81,11 @@ article {
 
 figure {
     width: 100%;
+    padding-right: 0;
 }
 
 figure img {
-    width: 100vw;
+    width: 100%;
 }
 
 .mobile-padding {
